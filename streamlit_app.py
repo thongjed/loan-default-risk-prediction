@@ -5,10 +5,10 @@ import pandas as pd
 import sklearn 
 
 # Load model and feature names
-with open('loan_approval_model.pkl', 'rb') as file:
+with open('FYP_Data_Preprocessing/loan_approval_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-with open('model_features.pkl', 'rb') as file:
+with open('FYP_Data_Preprocessing/model_features.pkl', 'rb') as file:
     feature_names = pickle.load(file)
 
 # App title
