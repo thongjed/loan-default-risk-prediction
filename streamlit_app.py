@@ -1,5 +1,5 @@
-import subprocess
-import sys
+import os
+os.system('pip install scikit-learn')
 
 # Install scikit-learn
 subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn"])
