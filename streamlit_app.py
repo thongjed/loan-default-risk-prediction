@@ -1,3 +1,9 @@
+import subprocess
+import sys
+
+# Install scikit-learn
+subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn"])
+
 import streamlit as st
 import pickle
 import numpy as np
